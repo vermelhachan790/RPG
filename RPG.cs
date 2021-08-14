@@ -49,7 +49,11 @@ while (Console.ReadKey().KeyChar != 'q'){
 		   	  String toBuy = Console.ReadLine();
 		   	  if (toBuy == "bf"){
 		   	  	 GameEngine.rev(1000);
-		   	  }
+		   	         switch (Console.ReadKey().Char){
+                                 case 'b':
+break;
+}
+}
 		   }
 		   
 		break;
